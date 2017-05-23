@@ -1,5 +1,13 @@
+@font-face {
+    font-family: 'Jubilat';
+    src: url('./font/Jubilat-Regular.otf');
+}
+
 body{
   background: #e6e6e6;
+  margin: 0;
+  padding: 0;
+  font-family: 'Jubilat', Arial !important;
 }
 
 
@@ -24,4 +32,30 @@ body{
 .navbar-default .navbar-text{
   color: #FFF;
   font-size: 12px;
+}
+
+
+
+
+.main-container{
+  background: #FFF;
+  padding: 30px 70px;
+}
+.social{
+  border-radius: 0;
+  height: 35px;
+}
+
+
+.snackContainer{
+  width: 200px;
+  margin: auto;
+  border: 1px solid #DDD;
+}
+.snackContainer img{
+  border: 1px solid #DDD;
+  margin-top: 2px;
+}
+.snackContainer:hover{
+  background-color: #DDD
 }
