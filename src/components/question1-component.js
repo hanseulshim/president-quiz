@@ -11,10 +11,34 @@ class Question1Component extends Component {
     return (
       <div>
         <h3>1. Choose a snack.</h3>
-        <Snack handleClick={this.props.handleClick} item="cherry" done={this.props.values.cherry} src={blackCherries} title="Black Cherries" />
-        <Snack handleClick={this.props.handleClick} item="jelly" done={this.props.values.jelly} src={jellyBean} title="Jelly Beans" />
-        <Snack handleClick={this.props.handleClick} item="popcorn" done={this.props.values.popcorn} src={popcorn} title="Popcorn" />
-        <Snack handleClick={this.props.handleClick} item="pigs" done={this.props.values.pigs} src={pigsInBlanket} title="Pigs in a Blanket" />
+        <Snack
+          handleClick={this.props.handleClick}
+          index="1"
+          value={this.props.index}
+          src={blackCherries}
+          title="Black Cherries"
+        />
+        <Snack
+          handleClick={this.props.handleClick}
+          index="2"
+          value={this.props.index}
+          src={jellyBean}
+          title="Jelly Beans"
+        />
+        <Snack
+          handleClick={this.props.handleClick}
+          index="3"
+          value={this.props.index}
+          src={popcorn}
+          title="Popcorn"
+        />
+        <Snack
+          handleClick={this.props.handleClick}
+          index="4"
+          value={this.props.index}
+          src={pigsInBlanket}
+          title="Pigs in a Blanket"
+        />
       </div>
     )
   }
