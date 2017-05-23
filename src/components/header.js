@@ -7,7 +7,7 @@ class Header extends Component {
       <nav className="navbar navbar-default">
       <div className="container-fluid">
         <button type="button" className="btn btn-danger navbar-btn navbar-left" id="contribute">Contribute</button>
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="https://gop.com/">
               <img alt="Brand" id="logo" src={logo} />
             </a>
             <div className="navbar-right">
