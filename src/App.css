@@ -1,0 +1,27 @@
+body{
+  background: #e6e6e6;
+}
+
+
+.navbar-default{
+  background: #464646;
+  border-color: #463636;
+  border-radius: 0;
+}
+#contribute {
+  background: #ea212d;
+  border-radius: 0;
+}
+#logo {
+  height: 60px;
+}
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  padding:0;
+}
+.navbar-default .navbar-text{
+  color: #FFF;
+  font-size: 12px;
+}
