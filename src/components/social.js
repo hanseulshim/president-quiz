@@ -5,7 +5,7 @@ import twitter from '../images/twitter.png'
 class Social extends Component {
   render() {
     return (
-      <div className="row">
+      <div className="col-md-12">
         <button type="button" className="btn btn-primary col-md-1 social">
           <img src={facebook} alt="Facebook"/> (100)
         </button>

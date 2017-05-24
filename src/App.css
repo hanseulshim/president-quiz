@@ -59,3 +59,14 @@ body{
 .snackContainer:hover, .active{
   background-color: #DDD
 }
+.notActive{
+  opacity: .5;
+}
+
+.vacationContainer{
+  width: 200px;
+  margin: auto;
+  padding: 30px;
+  border: 1px solid #DDD;
+  border-top: 10px solid #ea212d;
+}

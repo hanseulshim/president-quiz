@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Question1Component from '../components/question1-component'
+import Question2Component from '../components/question2-component'
 
 
-class Question1 extends Component {
+class Question2 extends Component {
   constructor(props) {
     super(props)
-   this.state = {activeIndex: null}
+   this.state = {activeIndex: 0}
 
    this.handleClick = this.handleClick.bind(this);
   }
@@ -16,7 +16,7 @@ class Question1 extends Component {
   }
   render() {
     return (
-      <Question1Component
+      <Question2Component
         handleClick={this.handleClick}
         index={this.state.activeIndex}
       />
@@ -24,4 +24,4 @@ class Question1 extends Component {
   }
 }
 
-export default Question1;
+export default Question2;
