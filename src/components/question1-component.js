@@ -9,7 +9,7 @@ import pigsInBlanket from '../images/snack/4.jpg'
 class Question1Component extends Component {
   render() {
     return (
-      <div className="col-md-12">
+      <div className="col-md-12 questionContainer">
         <h3>1. Choose a snack.</h3>
         <Snack
           handleClick={this.props.handleClick}

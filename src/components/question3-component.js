@@ -1,38 +1,38 @@
 import React, { Component } from 'react'
-import Vacation from '../components/vacation'
+import Animal from '../components/animal'
 
-class Question2Component extends Component {
+class Question3Component extends Component {
   render() {
     return (
       <div className="col-md-12 questionContainer">
-        <h3>2. Choose a vacation.</h3>
-        <Vacation
+        <h3>3. Choose an animal.</h3>
+        <Animal
           handleClick={this.props.handleClick}
           index="1"
           value={this.props.index}
-          location="Colorado"
+          location="bear"
         />
-        <Vacation
+        <Animal
           handleClick={this.props.handleClick}
           index="2"
           value={this.props.index}
-          location="California"
+          location="bobcat"
         />
-        <Vacation
+        <Animal
           handleClick={this.props.handleClick}
           index="3"
           value={this.props.index}
-          location="Camp David"
+          location="horse"
         />
-        <Vacation
+        <Animal
           handleClick={this.props.handleClick}
           index="4"
           value={this.props.index}
-          location="Mississippi"
+          location="dog"
         />
       </div>
     )
   }
 }
 
-export default Question2Component;
+export default Question3Component;

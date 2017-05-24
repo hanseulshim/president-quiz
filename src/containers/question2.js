@@ -5,14 +5,14 @@ import Question2Component from '../components/question2-component'
 class Question2 extends Component {
   constructor(props) {
     super(props)
-   this.state = {activeIndex: 0}
+   this.state = {activeIndex: null}
 
    this.handleClick = this.handleClick.bind(this);
   }
 
   handleClick(index){
     this.setState({activeIndex: index})
-    console.log(this.state)
+    this.props.checkComplete(1)
   }
   render() {
     return (

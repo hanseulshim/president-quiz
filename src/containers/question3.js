@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Question1Component from '../components/question1-component'
+import Question3Component from '../components/question3-component'
 
 
-class Question1 extends Component {
+class Question3 extends Component {
   constructor(props) {
     super(props)
    this.state = {activeIndex: null}
@@ -12,11 +12,11 @@ class Question1 extends Component {
 
   handleClick(index){
     this.setState({activeIndex: index})
-    this.props.checkComplete(0)
+    this.props.checkComplete(2)
   }
   render() {
     return (
-      <Question1Component
+      <Question3Component
         handleClick={this.handleClick}
         index={this.state.activeIndex}
       />
@@ -24,4 +24,4 @@ class Question1 extends Component {
   }
 }
 
-export default Question1;
+export default Question3;
