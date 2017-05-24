@@ -15,7 +15,7 @@ class President extends Component {
             {this.props.data.src}
           </div>
         </div>
-        <SocialResult />
+        <SocialResult name={this.props.data.name}/>
       </div>
     );
   }

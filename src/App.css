@@ -55,6 +55,9 @@ body{
   height: 35px;
   width: 150px;
 }
+.social img{
+  margin-right: 10px;
+}
 
 
 .snackContainer{
