@@ -9,7 +9,7 @@ import bowtie from '../images/clothing/4.jpg'
 class Question4Component extends Component {
   render() {
     return (
-      <div className="col-md-12 questionContainer">
+      <div className="col-md-12 col-sm-12 col-xs-12 questionContainer">
         <h3>4. Choose two articles of clothing.</h3>
         <Clothing
           handleClick={this.props.handleClick}

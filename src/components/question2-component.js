@@ -4,7 +4,7 @@ import Vacation from '../components/vacation'
 class Question2Component extends Component {
   render() {
     return (
-      <div className="col-md-12 questionContainer">
+      <div className="col-md-12 col-sm-12 col-xs-12 questionContainer">
         <h3>2. Choose a vacation.</h3>
         <Vacation
           handleClick={this.props.handleClick}

@@ -33,7 +33,16 @@ body{
   color: #FFF;
   font-size: 12px;
 }
-
+@media only screen and (max-width: 780px) {
+  .navbar-right{
+    float: right;
+    width: 150px;
+  }
+  .navbar-default .navbar-text{
+    margin-right: 10px;
+    float: left;
+  }
+}
 
 
 
@@ -44,6 +53,7 @@ body{
 .social{
   border-radius: 0;
   height: 35px;
+  width: 150px;
 }
 
 
@@ -128,7 +138,25 @@ body{
 
 .presidentText{
   padding-top: 5%;
+  width: 60%;
+  float: left;
+  padding-left: 5%;
+}
+@media only screen and (max-width: 1400px) {
+  .presidentText{
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .presidentText{
+    padding: 10px;
+    width: 60%;
+  }
+  .presidentImage{
+    width: 40%;
+  }
 }
 .presidentImage{
   padding-right: 0;
+  float: right;
 }

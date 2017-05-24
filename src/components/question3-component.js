@@ -4,7 +4,7 @@ import Animal from '../components/animal'
 class Question3Component extends Component {
   render() {
     return (
-      <div className="col-md-12 questionContainer">
+      <div className="col-md-12 col-sm-12 col-xs-12 questionContainer">
         <h3>3. Choose an animal.</h3>
         <Animal
           handleClick={this.props.handleClick}
